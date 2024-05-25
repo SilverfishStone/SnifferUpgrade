@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+        "model": "silversnifferupgrade:block/incubation_bench"
+    }
+  }
+}

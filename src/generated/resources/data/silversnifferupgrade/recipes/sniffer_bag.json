@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": {
+      "item": "silversnifferupgrade:sniffer_fur"
+    },
+    "S": {
+      "item": "minecraft:string"
+    }
+  },
+  "pattern": [
+    " S ",
+    "FFF",
+    "FFF"
+  ],
+  "result": {
+    "item": "silversnifferupgrade:sniffer_bag"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_biomite_crystal": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "silversnifferupgrade:biomite_crystal"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "silversnifferupgrade:biomite_gem"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_biomite_crystal",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "silversnifferupgrade:biomite_gem"
+    ]
+  },
+  "sends_telemetry_event": false
+}

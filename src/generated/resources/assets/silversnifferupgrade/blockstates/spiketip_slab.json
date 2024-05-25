@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "silversnifferupgrade:block/spiketip_slab"
+    },
+    "type=double": {
+      "model": "silversnifferupgrade:block/spiketip_planks"
+    },
+    "type=top": {
+      "model": "silversnifferupgrade:block/spiketip_slab_top"
+    }
+  }
+}

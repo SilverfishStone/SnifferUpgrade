@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "silversnifferupgrade:item/broken_trident"
+  }
+}

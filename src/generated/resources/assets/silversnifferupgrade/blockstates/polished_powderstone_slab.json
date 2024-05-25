@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "silversnifferupgrade:block/polished_powderstone_slab"
+    },
+    "type=double": {
+      "model": "silversnifferupgrade:block/polished_powderstone"
+    },
+    "type=top": {
+      "model": "silversnifferupgrade:block/polished_powderstone_slab_top"
+    }
+  }
+}

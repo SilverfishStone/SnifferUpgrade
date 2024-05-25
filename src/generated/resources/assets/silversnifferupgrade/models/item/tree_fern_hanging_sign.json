@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "silversnifferupgrade:item/tree_fern_hanging_sign"
+  }
+}

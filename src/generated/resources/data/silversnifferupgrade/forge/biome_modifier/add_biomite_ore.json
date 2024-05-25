@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#silversnifferupgrade:ancient",
+  "features": "silversnifferupgrade:biomite_ore_placed",
+  "step": "underground_ores"
+}

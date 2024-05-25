@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:torchflower_seeds",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pitcher_pod",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "silversnifferupgrade:ancient_apple",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "silversnifferupgrade:rotten_apple",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "silversnifferupgrade:biomic_capsule",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "silversnifferupgrade:horsetail_spores",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "silversnifferupgrade:greater_dodo_egg",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "silversnifferupgrade:ginkgo_sapling",
+          "weight": 20
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/sniffer_digging"
+}

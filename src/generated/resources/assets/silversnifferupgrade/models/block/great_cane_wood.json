@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "silversnifferupgrade:block/great_cane_log",
+    "side": "silversnifferupgrade:block/great_cane_log"
+  }
+}

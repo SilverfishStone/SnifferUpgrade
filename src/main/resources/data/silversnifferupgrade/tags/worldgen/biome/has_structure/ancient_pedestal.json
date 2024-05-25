@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "silversnifferupgrade:ancient_jungle",
+    "silversnifferupgrade:little_mountains",
+    "silversnifferupgrade:ancient_ginkgo_forest",
+    "silversnifferupgrade:petrified_forest",
+    "#forge:is_desert"
+  ]
+}

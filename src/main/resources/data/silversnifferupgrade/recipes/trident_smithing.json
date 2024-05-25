@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:heart_of_the_sea"
+  },
+  "base": {
+    "item": "silversnifferupgrade:broken_trident"
+  },
+  "result": {
+    "item": "minecraft:trident"
+  },
+  "template": {
+    "item": "minecraft:prismarine_shard"
+  }
+}

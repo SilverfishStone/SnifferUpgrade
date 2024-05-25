@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "silversnifferupgrade:block/petrified_oak_slab"
+    },
+    "type=double": {
+      "model": "silversnifferupgrade:block/petrified_planks"
+    },
+    "type=top": {
+      "model": "silversnifferupgrade:block/petrified_oak_slab_top"
+    }
+  }
+}

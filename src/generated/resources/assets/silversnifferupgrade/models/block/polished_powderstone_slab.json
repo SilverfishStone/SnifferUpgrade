@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "silversnifferupgrade:block/polished_powderstone",
+    "side": "silversnifferupgrade:block/polished_powderstone",
+    "top": "silversnifferupgrade:block/polished_powderstone"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "silversnifferupgrade:item/spiketip_chest_boat"
+  }
+}

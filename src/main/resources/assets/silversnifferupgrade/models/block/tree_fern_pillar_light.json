@@ -1,0 +1,7 @@
+{
+  "parent": "silversnifferupgrade:block/template_pillar_light",
+  "textures": {
+    "pillar_side": "silversnifferupgrade:block/tree_fern_pillar_light",
+    "pillar_end": "silversnifferupgrade:block/tree_fern_planks"
+  }
+}

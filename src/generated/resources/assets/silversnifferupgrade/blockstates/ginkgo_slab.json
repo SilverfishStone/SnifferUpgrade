@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "silversnifferupgrade:block/ginkgo_slab"
+    },
+    "type=double": {
+      "model": "silversnifferupgrade:block/ginkgo_planks"
+    },
+    "type=top": {
+      "model": "silversnifferupgrade:block/ginkgo_slab_top"
+    }
+  }
+}

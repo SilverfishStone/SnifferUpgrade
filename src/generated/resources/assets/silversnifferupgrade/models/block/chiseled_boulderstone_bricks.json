@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "silversnifferupgrade:block/chiseled_boulderstone_bricks"
+  }
+}

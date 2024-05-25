@@ -1,0 +1,71 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "silversnifferupgrade:arthropod_armor",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance_with_looting",
+                  "chance": 1,
+                  "looting_multiplier": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "silversnifferupgrade:tropical_crab_claw",
+          "weight": 5
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:furnace_smelt",
+          "conditions": [
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "enchantments": [
+                  {
+                    "enchantment": "minecraft:fire_aspect"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "function": "minecraft:set_count",
+          "count": {
+            "min": 0,
+            "max": 1
+          },
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance_with_looting",
+              "chance": 0.5,
+              "looting_multiplier": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

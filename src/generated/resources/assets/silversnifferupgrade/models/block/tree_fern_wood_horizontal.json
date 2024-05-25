@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "silversnifferupgrade:block/tree_fern_stem",
+    "side": "silversnifferupgrade:block/tree_fern_stem"
+  }
+}

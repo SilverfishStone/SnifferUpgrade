@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "silversnifferupgrade:boulderstone_bricks"
+  },
+  "result": "silversnifferupgrade:boulderstone_brick_slab"
+}

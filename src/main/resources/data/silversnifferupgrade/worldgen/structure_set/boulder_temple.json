@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "silversnifferupgrade:boulder_temple",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 36193619,
+    "spacing": 20,
+    "separation": 6,
+    "type": "minecraft:random_spread"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "silversnifferupgrade:block/ancient_grass_block"
+      },
+      {
+        "model": "silversnifferupgrade:block/ancient_grass_block",
+        "y": 90
+      },
+      {
+        "model": "silversnifferupgrade:block/ancient_grass_block",
+        "y": 180
+      },
+      {
+        "model": "silversnifferupgrade:block/ancient_grass_block",
+        "y": 270
+      }
+    ]
+  }
+}

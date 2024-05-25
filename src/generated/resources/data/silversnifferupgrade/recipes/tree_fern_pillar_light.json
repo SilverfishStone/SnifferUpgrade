@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "B": {
+      "item": "silversnifferupgrade:tree_fern_planks"
+    },
+    "C": {
+      "item": "minecraft:coal"
+    }
+  },
+  "pattern": [
+    "B",
+    "C",
+    "B"
+  ],
+  "result": {
+    "count": 3,
+    "item": "silversnifferupgrade:tree_fern_pillar_light"
+  },
+  "show_notification": true
+}

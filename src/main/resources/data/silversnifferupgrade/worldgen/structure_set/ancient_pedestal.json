@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "silversnifferupgrade:ancient_pedestal",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 917236919,
+    "spacing": 28,
+    "separation": 6,
+    "type": "minecraft:random_spread"
+  }
+}

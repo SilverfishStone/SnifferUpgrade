@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "silversnifferupgrade:prismaze",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 911917927,
+    "spacing": 32,
+    "separation": 8,
+    "type": "minecraft:random_spread"
+  }
+}

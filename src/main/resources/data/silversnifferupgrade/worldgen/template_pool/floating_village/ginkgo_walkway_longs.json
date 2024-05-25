@@ -1,0 +1,25 @@
+{
+  "name": "silversnifferupgrade:ginkgo_walkway",
+  "fallback": "minecraft:empty",
+
+  "elements": [
+    {
+      "weight": 5,
+      "element": {
+        "location": "silversnifferupgrade:floating_village/ginkgo_walkway_long1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "location": "silversnifferupgrade:floating_village/ginkgo_walkway_long2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

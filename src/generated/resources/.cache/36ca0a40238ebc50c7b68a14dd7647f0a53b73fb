@@ -1,0 +1,20 @@
+// 1.20.1	2024-04-30T14:32:52.1582117	Tags for minecraft:block mod id silversnifferupgrade
+36f00293209f13a8fe2970a46d1e29e373d4beae data/minecraft/tags/blocks/dirt.json
+c496f3a09a31f148ab349e3c71a174bbdd7058b5 data/minecraft/tags/blocks/fences.json
+866e3563b3186f8baf0e1a0464f643e395955de6 data/minecraft/tags/blocks/fence_gates.json
+0e7f548d3e4c2230472ca9bc5cd0fb5e6fafe7b3 data/minecraft/tags/blocks/flowers.json
+2f9ddd58996cdaff0a2da1d1205856edc05640fc data/minecraft/tags/blocks/logs_that_burn.json
+3fd872b9d80e3e4eb5f310ea5f66a9b6628344c2 data/minecraft/tags/blocks/mineable/axe.json
+1dcdf4bdecccccd05e1c46079cb04ec2b12837a4 data/minecraft/tags/blocks/mineable/pickaxe.json
+01f0e3ad449bea8af432c20f2bd72c2f27b1c980 data/minecraft/tags/blocks/mineable/shovel.json
+de4c2d8c8f6af55928fa491a8543afc5b29be848 data/minecraft/tags/blocks/needs_iron_tool.json
+fbd92841b5f7a4a881caeac2e7d022ddf8de7c08 data/minecraft/tags/blocks/needs_stone_tool.json
+92b7f6eed94c0157d5e021ab82068c26fa2761b2 data/minecraft/tags/blocks/planks.json
+0e7f548d3e4c2230472ca9bc5cd0fb5e6fafe7b3 data/minecraft/tags/blocks/small_flowers.json
+e97ee08e961924225ab7a4c3e83bd03941ca6679 data/minecraft/tags/blocks/sniffer_egg_hatch_boost.json
+f0c01455bfac215be85a79d44863dda4822a394a data/minecraft/tags/blocks/walls.json
+c496f3a09a31f148ab349e3c71a174bbdd7058b5 data/minecraft/tags/blocks/wooden_fences.json
+61ae7020a87e544792bc09be6a1c6280f8231b19 data/minecraft/tags/blocks/wool.json
+3322f00318d631757f6ce1a3dd0761662169f671 data/minecraft/tags/blocks/wool_carpets.json
+3f6dfeed6a523387302336572aaa265d29cf5da1 data/silversnifferupgrade/tags/blocks/boulderstone_ore_replaceables.json
+66d9dc929695ce02fd8fdd81197ed9afaf5c99c2 data/silversnifferupgrade/tags/blocks/greater_dodo_egg_hatch_boost.json

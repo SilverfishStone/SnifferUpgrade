@@ -1,0 +1,36 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "silversnifferupgrade:block/horsetail"
+      },
+      {
+        "model": "silversnifferupgrade:block/horsetail",
+        "y": 90
+      },
+      {
+        "model": "silversnifferupgrade:block/horsetail",
+        "y": 180
+      },
+      {
+        "model": "silversnifferupgrade:block/horsetail",
+        "y": 270
+      },
+      {
+        "model": "silversnifferupgrade:block/horsetail2"
+      },
+      {
+        "model": "silversnifferupgrade:block/horsetail2",
+        "y": 90
+      },
+      {
+        "model": "silversnifferupgrade:block/horsetail2",
+        "y": 180
+      },
+      {
+        "model": "silversnifferupgrade:block/horsetail2",
+        "y": 270
+      }
+    ]
+  }
+}

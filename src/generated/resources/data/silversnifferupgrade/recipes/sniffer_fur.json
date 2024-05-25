@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "silversnifferupgrade:sniffer_wool"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "silversnifferupgrade:sniffer_fur"
+  }
+}

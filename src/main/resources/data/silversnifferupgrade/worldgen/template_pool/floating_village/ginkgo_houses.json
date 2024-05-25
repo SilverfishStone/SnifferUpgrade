@@ -1,0 +1,43 @@
+{
+  "name": "silversnifferupgrade:ginkgo_house",
+  "fallback": "minecraft:empty",
+
+  "elements": [
+    {
+      "weight": 7,
+      "element": {
+        "location": "silversnifferupgrade:floating_village/ginkgo_house1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "location": "silversnifferupgrade:floating_village/ginkgo_house2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "silversnifferupgrade:floating_village/ginkgo_fishing_hut",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "silversnifferupgrade:floating_village/ginkgo_blacksmith",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

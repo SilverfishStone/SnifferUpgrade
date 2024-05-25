@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "silversnifferupgrade:block/stripped_ginkgo_log",
+    "side": "silversnifferupgrade:block/stripped_ginkgo_log"
+  }
+}

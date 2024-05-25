@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "silversnifferupgrade:block/tree_fern_planks",
+    "side": "silversnifferupgrade:block/tree_fern_planks",
+    "top": "silversnifferupgrade:block/tree_fern_planks"
+  }
+}

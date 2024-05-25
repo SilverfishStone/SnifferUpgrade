@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "silversnifferupgrade:biomite_gem"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "BB",
+    "S ",
+    "S "
+  ],
+  "result": {
+    "item": "silversnifferupgrade:biomic_hoe"
+  },
+  "show_notification": true
+}

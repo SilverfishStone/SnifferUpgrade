@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ginkgo": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "silversnifferupgrade:tree_fern_planks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "silversnifferupgrade:tree_fern_slab"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_ginkgo",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "silversnifferupgrade:tree_fern_slab"
+    ]
+  },
+  "sends_telemetry_event": false
+}

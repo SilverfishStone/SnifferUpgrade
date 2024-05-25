@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/door_bottom_left",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "bottom": "silversnifferupgrade:block/tree_fern_door_bottom",
+    "top": "silversnifferupgrade:block/tree_fern_door_top"
+  }
+}

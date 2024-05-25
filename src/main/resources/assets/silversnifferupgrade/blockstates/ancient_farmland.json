@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "moisture=0": {
+      "model": "silversnifferupgrade:block/ancient_farmland"
+    },
+    "moisture=1": {
+      "model": "silversnifferupgrade:block/ancient_farmland"
+    },
+    "moisture=2": {
+      "model": "silversnifferupgrade:block/ancient_farmland"
+    },
+    "moisture=3": {
+      "model": "silversnifferupgrade:block/ancient_farmland"
+    },
+    "moisture=4": {
+      "model": "silversnifferupgrade:block/ancient_farmland"
+    },
+    "moisture=5": {
+      "model": "silversnifferupgrade:block/ancient_farmland"
+    },
+    "moisture=6": {
+      "model": "silversnifferupgrade:block/ancient_farmland"
+    },
+    "moisture=7": {
+      "model": "silversnifferupgrade:block/ancient_farmland_moist"
+    }
+  }
+}

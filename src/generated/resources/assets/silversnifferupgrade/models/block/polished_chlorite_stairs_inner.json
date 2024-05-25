@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "silversnifferupgrade:block/polished_chlorite",
+    "side": "silversnifferupgrade:block/polished_chlorite",
+    "top": "silversnifferupgrade:block/polished_chlorite"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "silversnifferupgrade:block/polished_chlorite_slab"
+    },
+    "type=double": {
+      "model": "silversnifferupgrade:block/polished_chlorite"
+    },
+    "type=top": {
+      "model": "silversnifferupgrade:block/polished_chlorite_slab_top"
+    }
+  }
+}

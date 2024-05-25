@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_polished_powderstone": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "silversnifferupgrade:polished_powderstone"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:polished_powderstone_stairs_from_polished_powderstone_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_polished_powderstone",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:polished_powderstone_stairs_from_polished_powderstone_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

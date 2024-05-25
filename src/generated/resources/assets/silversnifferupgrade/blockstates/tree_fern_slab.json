@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "silversnifferupgrade:block/tree_fern_slab"
+    },
+    "type=double": {
+      "model": "silversnifferupgrade:block/tree_fern_planks"
+    },
+    "type=top": {
+      "model": "silversnifferupgrade:block/tree_fern_slab_top"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "silversnifferupgrade:block/incubation_bench_bottom",
+    "side": "silversnifferupgrade:block/incubation_bench_side",
+    "top": "silversnifferupgrade:block/incubation_bench_top"
+  }
+}

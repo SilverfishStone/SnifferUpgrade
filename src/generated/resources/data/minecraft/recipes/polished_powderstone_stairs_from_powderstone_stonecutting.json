@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "silversnifferupgrade:powderstone"
+  },
+  "result": "silversnifferupgrade:polished_powderstone_stairs"
+}

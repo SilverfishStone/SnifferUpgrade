@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "silversnifferupgrade:biomite_crystal"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "pattern": [
+    " B ",
+    "BDB",
+    " B "
+  ],
+  "result": {
+    "item": "silversnifferupgrade:biomite_gem"
+  },
+  "show_notification": true
+}

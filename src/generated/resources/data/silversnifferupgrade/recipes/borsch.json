@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "silversnifferupgrade:stranip"
+    },
+    {
+      "item": "silversnifferupgrade:stranip_leaves"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "silversnifferupgrade:borsch"
+  }
+}

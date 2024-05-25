@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "silversnifferupgrade:block/spiketip_planks",
+    "side": "silversnifferupgrade:block/spiketip_planks",
+    "top": "silversnifferupgrade:block/spiketip_planks"
+  }
+}

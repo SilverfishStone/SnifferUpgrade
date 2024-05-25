@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "silversnifferupgrade:block/tree_fern_wood_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "silversnifferupgrade:block/tree_fern_wood"
+    },
+    "axis=z": {
+      "model": "silversnifferupgrade:block/tree_fern_wood_horizontal",
+      "x": 90
+    }
+  }
+}

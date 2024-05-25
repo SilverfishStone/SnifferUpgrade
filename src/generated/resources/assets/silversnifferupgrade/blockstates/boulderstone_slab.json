@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "silversnifferupgrade:block/boulderstone_slab"
+    },
+    "type=double": {
+      "model": "silversnifferupgrade:block/boulderstone"
+    },
+    "type=top": {
+      "model": "silversnifferupgrade:block/boulderstone_slab_top"
+    }
+  }
+}

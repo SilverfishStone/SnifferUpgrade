@@ -1,0 +1,16 @@
+{
+  "name": "silversnifferupgrade:ginkgo_villager",
+  "fallback": "minecraft:empty",
+
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "silversnifferupgrade:floating_village/ginkgo_villager",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

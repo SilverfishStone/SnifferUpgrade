@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stranip": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "silversnifferupgrade:stranip"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "silversnifferupgrade:borsch"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_stranip",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "silversnifferupgrade:borsch"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "silversnifferupgrade:tree_fern_planks"
+    }
+  ],
+  "result": {
+    "item": "silversnifferupgrade:tree_fern_button"
+  }
+}

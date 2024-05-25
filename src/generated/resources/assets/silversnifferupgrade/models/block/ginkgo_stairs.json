@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "silversnifferupgrade:block/ginkgo_planks",
+    "side": "silversnifferupgrade:block/ginkgo_planks",
+    "top": "silversnifferupgrade:block/ginkgo_planks"
+  }
+}

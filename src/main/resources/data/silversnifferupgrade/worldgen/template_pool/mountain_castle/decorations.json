@@ -1,0 +1,25 @@
+{
+  "name": "silversnifferupgrade:decoration",
+  "fallback": "minecraft:empty",
+
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "silversnifferupgrade:mountain_castle/decorations/caretakers_hut",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "silversnifferupgrade:mountain_castle/decorations/farm1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

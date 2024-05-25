@@ -1,0 +1,20 @@
+{
+  "values": [
+    "silversnifferupgrade:ginkgo_log",
+    "silversnifferupgrade:stripped_ginkgo_log",
+    "silversnifferupgrade:ginkgo_wood",
+    "silversnifferupgrade:stripped_ginkgo_wood",
+    "silversnifferupgrade:stripped_great_cane_wood",
+    "silversnifferupgrade:stripped_great_cane_log",
+    "silversnifferupgrade:great_cane_wood",
+    "silversnifferupgrade:great_cane_log",
+    "silversnifferupgrade:spiketip_log",
+    "silversnifferupgrade:stripped_spiketip_log",
+    "silversnifferupgrade:spiketip_wood",
+    "silversnifferupgrade:stripped_spiketip_wood",
+    "silversnifferupgrade:tree_fern_stem",
+    "silversnifferupgrade:stripped_tree_fern_log",
+    "silversnifferupgrade:tree_fern_wood",
+    "silversnifferupgrade:stripped_tree_fern_wood"
+  ]
+}

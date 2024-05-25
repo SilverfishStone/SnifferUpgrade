@@ -1,0 +1,7 @@
+{
+  "parent": "silversnifferupgrade:block/cross_sized",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "cross": "silversnifferupgrade:block/stranip_flower"
+  }
+}

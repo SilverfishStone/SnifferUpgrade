@@ -1,0 +1,181 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "silversnifferupgrade:block/sniffer_carpet_east"
+      },
+      "when": {
+        "east_edge": "attached",
+        "west_edge": "empty",
+        "north_edge": "attached",
+        "south_edge": "attached"
+      }
+    },
+    {
+      "apply": {
+        "model": "silversnifferupgrade:block/sniffer_carpet_west"
+      },
+      "when": {
+        "east_edge": "empty",
+        "west_edge": "attached",
+        "north_edge": "attached",
+        "south_edge": "attached"
+      }
+    },
+    {
+      "apply": {
+        "model": "silversnifferupgrade:block/sniffer_carpet_north"
+      },
+      "when": {
+        "east_edge": "attached",
+        "west_edge": "attached",
+        "north_edge": "attached",
+        "south_edge": "empty"
+      }
+    },
+    {
+      "apply": {
+        "model": "silversnifferupgrade:block/sniffer_carpet_south"
+      },
+      "when": {
+        "east_edge": "attached",
+        "west_edge": "attached",
+        "north_edge": "empty",
+        "south_edge": "attached"
+      }
+    },
+
+    {
+      "apply": {
+        "model": "silversnifferupgrade:block/sniffer_carpet_nw"
+      },
+      "when": {
+        "east_edge": "attached",
+        "west_edge": "empty",
+        "north_edge": "attached",
+        "south_edge": "empty"
+      }
+    },
+    {
+      "apply": {
+        "model": "silversnifferupgrade:block/sniffer_carpet_ne"
+      },
+      "when": {
+        "east_edge": "empty",
+        "west_edge": "attached",
+        "north_edge": "attached",
+        "south_edge": "empty"
+      }
+    },
+    {
+      "apply": {
+        "model": "silversnifferupgrade:block/sniffer_carpet_sw"
+      },
+      "when": {
+        "east_edge": "attached",
+        "west_edge": "empty",
+        "north_edge": "empty",
+        "south_edge": "attached"
+      }
+    },
+    {
+      "apply": {
+        "model": "silversnifferupgrade:block/sniffer_carpet_se"
+      },
+      "when": {
+        "east_edge": "empty",
+        "west_edge": "attached",
+        "north_edge": "empty",
+        "south_edge": "attached"
+      }
+    },
+    {
+      "apply": {
+        "model": "silversnifferupgrade:block/sniffer_carpet_center"
+      },
+      "when": {
+        "east_edge": "attached",
+        "west_edge": "attached",
+        "north_edge": "attached",
+        "south_edge": "attached"
+      }
+    },
+    {
+      "apply": {
+        "model": "silversnifferupgrade:block/sniffer_carpet_single"
+      },
+      "when": {
+        "east_edge": "empty",
+        "west_edge": "empty",
+        "north_edge": "empty",
+        "south_edge": "empty"
+      }
+    },
+    {
+      "apply": {
+        "model": "silversnifferupgrade:block/sniffer_carpet_east_single"
+      },
+      "when": {
+        "east_edge": "attached",
+        "west_edge": "empty",
+        "north_edge": "empty",
+        "south_edge": "empty"
+      }
+    },
+    {
+      "apply": {
+        "model": "silversnifferupgrade:block/sniffer_carpet_west_single"
+      },
+      "when": {
+        "east_edge": "empty",
+        "west_edge": "attached",
+        "north_edge": "empty",
+        "south_edge": "empty"
+      }
+    },
+    {
+      "apply": {
+        "model": "silversnifferupgrade:block/sniffer_carpet_south_single"
+      },
+      "when": {
+        "east_edge": "empty",
+        "west_edge": "empty",
+        "north_edge": "empty",
+        "south_edge": "attached"
+      }
+    },
+    {
+      "apply": {
+        "model": "silversnifferupgrade:block/sniffer_carpet_north_single"
+      },
+      "when": {
+        "east_edge": "empty",
+        "west_edge": "empty",
+        "north_edge": "attached",
+        "south_edge": "empty"
+      }
+    },
+    {
+      "apply": {
+        "model": "silversnifferupgrade:block/sniffer_carpet_ns"
+      },
+      "when": {
+        "east_edge": "empty",
+        "west_edge": "empty",
+        "north_edge": "attached",
+        "south_edge": "attached"
+      }
+    },
+    {
+      "apply": {
+        "model": "silversnifferupgrade:block/sniffer_carpet_ew"
+      },
+      "when": {
+        "east_edge": "attached",
+        "west_edge": "attached",
+        "north_edge": "empty",
+        "south_edge": "empty"
+      }
+    }
+  ]
+}

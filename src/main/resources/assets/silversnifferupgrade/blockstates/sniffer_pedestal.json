@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "lit=true":
+      {
+        "model": "silversnifferupgrade:block/sniffer_pedestal"
+      },
+    "lit=false":
+    {
+        "model": "silversnifferupgrade:block/sniffer_pedestal_deactive"
+      }
+  }
+}

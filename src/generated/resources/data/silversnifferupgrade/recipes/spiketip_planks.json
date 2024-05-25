@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "silversnifferupgrade:spiketip_logs"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "silversnifferupgrade:spiketip_planks"
+  }
+}

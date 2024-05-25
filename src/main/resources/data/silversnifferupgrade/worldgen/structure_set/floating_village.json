@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "silversnifferupgrade:floating_village",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 917236919,
+    "spacing": 32,
+    "separation": 7,
+    "type": "minecraft:random_spread"
+  }
+}

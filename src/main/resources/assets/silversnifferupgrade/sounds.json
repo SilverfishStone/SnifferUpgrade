@@ -1,0 +1,16 @@
+{
+  "block.sniffer_pedestal.active": {
+    "sounds": [
+      "silversnifferupgrade:block/sniffer_pedestal/pedestal_activated"
+    ],
+    "subtitle": "subtitles.block.ancient_portal.activate"
+  },
+  "entity.damage.choking": {
+    "sounds": [
+      "silversnifferupgrade:entity/choking/cough1",
+      "silversnifferupgrade:entity/choking/cough2",
+      "silversnifferupgrade:entity/choking/cough3"
+    ],
+    "subtitle": "subtitles.entity.cough.choke"
+  }
+}

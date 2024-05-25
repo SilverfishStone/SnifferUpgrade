@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 600,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "silversnifferupgrade:tropical_crab_claw"
+  },
+  "result": {
+    "item": "silversnifferupgrade:roasted_tropical_crab_claw"
+  }
+}

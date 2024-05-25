@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "silversnifferupgrade:ginkgo_hut",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 917236919,
+    "spacing": 30,
+    "separation": 7,
+    "type": "minecraft:random_spread"
+  }
+}

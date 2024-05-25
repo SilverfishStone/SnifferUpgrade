@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "silversnifferupgrade:raw_dodo_meat"
+  },
+  "result": {
+    "item": "silversnifferupgrade:roasted_dodo_meat"
+  }
+}

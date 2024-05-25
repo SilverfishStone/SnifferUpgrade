@@ -1,0 +1,16 @@
+{
+  "name": "silversnifferupgrade:space",
+  "fallback": "minecraft:empty",
+
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "silversnifferupgrade:mountain_castle/decorations/space",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "silversnifferupgrade:dungeon_main",
+  "fallback": "minecraft:empty",
+
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "silversnifferupgrade:mountain_castle/dungeon/dungeon_main_room",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

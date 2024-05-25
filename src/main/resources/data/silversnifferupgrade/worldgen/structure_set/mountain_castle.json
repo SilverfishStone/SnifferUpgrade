@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "silversnifferupgrade:mountain_castle",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 2849339,
+    "spacing": 32,
+    "separation": 8,
+    "type": "minecraft:random_spread"
+  }
+}

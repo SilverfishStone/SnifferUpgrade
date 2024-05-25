@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "silversnifferupgrade:block/smooth_petrified_log"
+  }
+}

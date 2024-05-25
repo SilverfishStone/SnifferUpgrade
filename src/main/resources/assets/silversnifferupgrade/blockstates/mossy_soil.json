@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "silversnifferupgrade:block/mossy_soil"
+      },
+      {
+        "model": "silversnifferupgrade:block/mossy_soil",
+        "y": 90
+      },
+      {
+        "model": "silversnifferupgrade:block/mossy_soil",
+        "y": 180
+      },
+      {
+        "model": "silversnifferupgrade:block/mossy_soil",
+        "y": 270
+      }
+    ]
+  }
+}

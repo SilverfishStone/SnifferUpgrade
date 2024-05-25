@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "silversnifferupgrade:block/grassy_boulderstone"
+      },
+      {
+        "model": "silversnifferupgrade:block/grassy_boulderstone",
+        "y": 90
+      },
+      {
+        "model": "silversnifferupgrade:block/grassy_boulderstone",
+        "y": 180
+      },
+      {
+        "model": "silversnifferupgrade:block/grassy_boulderstone",
+        "y": 270
+      }
+    ]
+  }
+}

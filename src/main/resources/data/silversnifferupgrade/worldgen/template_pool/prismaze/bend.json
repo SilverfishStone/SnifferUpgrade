@@ -1,0 +1,34 @@
+{
+  "name": "silversnifferupgrade:bend",
+  "fallback": "minecraft:empty",
+
+  "elements": [
+    {
+      "weight": 5,
+      "element": {
+        "location": "silversnifferupgrade:prismaze/prismaze_bend",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "silversnifferupgrade:prismaze/prismaze_bend2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "silversnifferupgrade:prismaze/prismaze_bend3",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

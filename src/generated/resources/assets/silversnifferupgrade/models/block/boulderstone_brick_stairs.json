@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "silversnifferupgrade:block/boulderstone_bricks",
+    "side": "silversnifferupgrade:block/boulderstone_bricks",
+    "top": "silversnifferupgrade:block/boulderstone_bricks"
+  }
+}
