@@ -1,10 +1,11 @@
-// 1.20.1	2024-05-05T17:28:24.7184825	Tags for minecraft:item mod id silversnifferupgrade
+// 1.20.1	2024-05-31T01:50:59.107394	Tags for minecraft:item mod id silversnifferupgrade
 29b2e2fdcca32acca44a4f8a629360871efe45e3 data/forge/tags/items/cobblestone.json
 05ae43b76add0b0f0782cd01bf391776b1def1a5 data/forge/tags/items/feathers.json
 0e7f548d3e4c2230472ca9bc5cd0fb5e6fafe7b3 data/minecraft/tags/items/flowers.json
 34a8ce38b3656bb9d8b9ce94102985c2813f475e data/minecraft/tags/items/logs_that_burn.json
 8f67be6539f06357ff2b7e41a44fae7dc0a1d000 data/minecraft/tags/items/planks.json
 0e7f548d3e4c2230472ca9bc5cd0fb5e6fafe7b3 data/minecraft/tags/items/small_flowers.json
+79e0d81104220da53f23cbbcca72e0e832a7096f data/minecraft/tags/items/stone_crafting_materials.json
 6cf9882eec6ecc7f0d063b5fcf36b1d6192f5af2 data/minecraft/tags/items/stone_tool_materials.json
 fc5d1ccd33000d0ea69e469c74311f000fe17581 data/minecraft/tags/items/trimmable_armor.json
 c0cd35cd7d1e19fa6eac66579aa16af51efeb343 data/minecraft/tags/items/wool.json

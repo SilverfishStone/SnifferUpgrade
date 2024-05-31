@@ -177,6 +177,8 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
         this.dropSelf(ModBlocks.HORSETAIL.get());
         this.add(ModBlocks.POTTED_HORSETAIL.get(), createPotFlowerItemTable(ModBlocks.HORSETAIL.get()));
+        this.dropSelf(ModBlocks.CRATERWEED.get());
+        this.add(ModBlocks.POTTED_CRATERWEED.get(), createPotFlowerItemTable(ModBlocks.CRATERWEED.get()));
 
         this.add(ModBlocks.BIOMITE_ORE.get(),
                 block -> createCopperLikeOreDrops(ModBlocks.BIOMITE_ORE.get(), ModItems.BIOMITE_CRYSTAL.get()));
@@ -248,6 +250,9 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
         this.dropSelf(ModBlocks.PUMICE.get());
         this.dropSelf(ModBlocks.LATITE.get());
+        this.dropSelf(ModBlocks.LATITE_BRICKS.get());
+        this.dropSelf(ModBlocks.COBBLED_LATITE.get());
+
 
     }
 

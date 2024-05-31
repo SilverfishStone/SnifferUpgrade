@@ -102,5 +102,11 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                         ModBlocks.POWDERSTONE.get().asItem(),
                         ModBlocks.LATITE.get().asItem(),
                         ModBlocks.PUMICE.get().asItem());
+
+        this.tag(ItemTags.STONE_CRAFTING_MATERIALS)
+                .add(ModBlocks.BOULDERSTONE.get().asItem(),
+                        ModBlocks.POWDERSTONE.get().asItem(),
+                        ModBlocks.LATITE.get().asItem(),
+                        ModBlocks.COBBLED_LATITE.get().asItem());
     }
 }

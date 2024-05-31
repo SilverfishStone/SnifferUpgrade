@@ -1,6 +1,8 @@
 package net.silverfishstone.silversnifferupgrade.item;
 
 import net.minecraft.sounds.SoundEvents;
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.material.Fluids;
@@ -121,6 +123,8 @@ public class ModItems {
             () -> new SwordItem(DIAMOND, 2, -2.6f, new Item.Properties()));
     public static final RegistryObject<Item> ARTHROPOD_ARMOR = ITEMS.register("arthropod_armor",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> FLAMIPEDE_FANG = ITEMS.register("flamipede_fang",
+            () -> new PoisonFang(DIAMOND, 2, -2.4f, new Item.Properties().food(ModFoods.CRAB_CLAW), new MobEffectInstance(MobEffects.POISON, 100)));
 
     public static final RegistryObject<Item> CHITIN_HELMET = ITEMS.register("chitin_helmet",
             () -> new SilversHelmetItem(SilversArmorMaterials.ARTHROPOD, ArmorItem.Type.HELMET,new Item.Properties()));
@@ -142,7 +146,11 @@ public class ModItems {
     public static final RegistryObject<Item> STRANIP = ITEMS.register("stranip",
             () -> new Item(new Item.Properties().food(ModFoods.STRANIP)));
     public static final RegistryObject<Item> BORSCH = ITEMS.register("borsch",
-            () -> new Item(new Item.Properties().food(ModFoods.BORSCH).stacksTo(16)));
+            () -> new Item(new Item.Properties().food(ModFoods.SOUP).stacksTo(16)));
+    public static final RegistryObject<Item> CLAW_SOUP = ITEMS.register("claw_soup",
+            () -> new Item(new Item.Properties().food(ModFoods.SOUP).stacksTo(16)));
+    public static final RegistryObject<Item> SPICY_CLAW_SOUP = ITEMS.register("spicy_claw_soup",
+            () -> new Item(new Item.Properties().food(ModFoods.SPICY_SOUP).stacksTo(16)));
 
     public static final RegistryObject<Item> SNIFFER_BAG = ITEMS.register("sniffer_bag",
             () -> new SnifferBagItem(new Item.Properties()));

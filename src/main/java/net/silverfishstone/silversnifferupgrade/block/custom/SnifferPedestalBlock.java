@@ -1,10 +1,14 @@
 package net.silverfishstone.silversnifferupgrade.block.custom;
 
+import net.minecraft.client.Minecraft;
 import net.minecraft.core.BlockPos;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.InteractionHand;
@@ -14,6 +18,7 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.level.GameType;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
@@ -25,10 +30,12 @@ import net.minecraft.world.phys.BlockHitResult;
 import net.minecraftforge.client.event.sound.SoundEvent;
 import net.silverfishstone.silversnifferupgrade.SnifferUpgrade;
 import net.silverfishstone.silversnifferupgrade.block.ModBlocks;
+import net.silverfishstone.silversnifferupgrade.potions.ModMobEffects;
 import net.silverfishstone.silversnifferupgrade.sounds.SnifferSounds;
 import net.silverfishstone.silversnifferupgrade.worldgen.dimension.ModDimensions;
 import net.silverfishstone.silversnifferupgrade.worldgen.portal.AncientTeleporter;
 
+import java.util.Objects;
 import java.util.function.Predicate;
 
 public class SnifferPedestalBlock extends Block {
@@ -53,8 +60,13 @@ public class SnifferPedestalBlock extends Block {
         } else {
             if (pState.getValue(ACTIVE)) {
                 if (pPlayer.canChangeDimensions()) {
-                    handleAncientPortal(pPlayer, pPos);
-                    return InteractionResult.SUCCESS;
+                    if (pPlayer.hasEffect(ModMobEffects.OXYGENATED.get()) || (pPlayer.level().dimension()) == ResourceKey.create(Registries.DIMENSION, new ResourceLocation("silversnifferupgrade:ancient_fields")) || checkCreative(pPlayer)) {
+                        handleAncientPortal(pPlayer, pPos);
+                        return InteractionResult.SUCCESS;
+                    } else {
+                        pPlayer.displayClientMessage(Component.literal("Cannot enter dimension. Not acclimated. Please brew an Oxygenated Potion and return."), true);
+                        return InteractionResult.PASS;
+                    }
                 } else {
                     return InteractionResult.CONSUME;
                 }
@@ -80,6 +92,14 @@ public class SnifferPedestalBlock extends Block {
                 }
             }
         }
+    }
+    public boolean checkCreative(Entity entity) {
+        if (entity instanceof ServerPlayer serverPlayer) {
+            return serverPlayer.gameMode.getGameModeForPlayer() == GameType.CREATIVE;
+        } else if (entity.level().isClientSide() && entity instanceof Player player) {
+            return Objects.requireNonNull(Minecraft.getInstance().getConnection()).getPlayerInfo(player.getGameProfile().getId()) != null && Objects.requireNonNull(Minecraft.getInstance().getConnection().getPlayerInfo(player.getGameProfile().getId())).getGameMode() == GameType.CREATIVE;
+        }
+        return false;
     }
 
     protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> pBuilder) {

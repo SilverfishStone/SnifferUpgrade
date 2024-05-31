@@ -59,6 +59,10 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.BOULDERSTONE.get());
                         pOutput.accept(ModBlocks.POWDERSTONE.get());
                         pOutput.accept(ModBlocks.POLISHED_POWDERSTONE.get());
+                        pOutput.accept(ModBlocks.LATITE_BRICKS.get());
+                        pOutput.accept(ModBlocks.LATITE.get());
+                        pOutput.accept(ModBlocks.COBBLED_LATITE.get());
+                        pOutput.accept(ModBlocks.PUMICE.get());
                         pOutput.accept(ModBlocks.BOULDERSTONE_BRICKS.get());
                         pOutput.accept(ModBlocks.CHISELED_BOULDERSTONE_BRICKS.get());
                         pOutput.accept(ModBlocks.PETRIFIED_LOG.get());
@@ -92,6 +96,7 @@ public class ModCreativeModeTabs {
 
                         pOutput.accept(ModBlocks.GREATER_DODO_EGG.get());
                         pOutput.accept(ModBlocks.HORSETAIL.get());
+                        pOutput.accept(ModBlocks.CRATERWEED.get());
                         pOutput.accept(ModBlocks.INCUBATION_BENCH.get());
                         pOutput.accept(ModBlocks.ANCIENT_SOIL.get());
                         pOutput.accept(ModBlocks.ANCIENT_GRASS_BLOCK.get());
@@ -179,6 +184,9 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.BORSCH.get());
                         pOutput.accept(ModItems.SNIFFER_BAG.get());
                         pOutput.accept(ModItems.CHITIN_SEGMENT.get());
+                        pOutput.accept(ModItems.FLAMIPEDE_FANG.get());
+                        pOutput.accept(ModItems.CLAW_SOUP.get());
+                        pOutput.accept(ModItems.SPICY_CLAW_SOUP.get());
 
                         pOutput.accept(ModBlocks.ACACIA_PILLAR_LIGHT.get());
                         pOutput.accept(ModBlocks.BAMBOO_PILLAR_LIGHT.get());

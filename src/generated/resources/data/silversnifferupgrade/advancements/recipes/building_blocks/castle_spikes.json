@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_stranip": {
+    "has_iron_nugget": {
       "conditions": {
         "items": [
           {
             "items": [
-              "silversnifferupgrade:stranip"
+              "minecraft:iron_nugget"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "silversnifferupgrade:borsch"
+        "recipe": "silversnifferupgrade:castle_spikes"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_stranip",
+      "has_iron_nugget",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "silversnifferupgrade:borsch"
+      "silversnifferupgrade:castle_spikes"
     ]
   },
   "sends_telemetry_event": false

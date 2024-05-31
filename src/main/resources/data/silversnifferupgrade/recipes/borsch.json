@@ -3,10 +3,10 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "silversnifferupgrade:stranip"
+      "tag": "forge:beetroot"
     },
     {
-      "item": "silversnifferupgrade:stranip_leaves"
+      "tag": "forge:salad_ingredients/cabbage"
     },
     {
       "item": "minecraft:bowl"

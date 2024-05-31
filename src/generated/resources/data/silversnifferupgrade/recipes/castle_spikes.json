@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "I": {
+      "item": "minecraft:iron_nugget"
+    },
+    "S": {
+      "tag": "minecraft:stone_crafting_materials"
+    }
+  },
+  "pattern": [
+    "I I",
+    "I I",
+    "SSS"
+  ],
+  "result": {
+    "count": 6,
+    "item": "silversnifferupgrade:castle_spikes"
+  },
+  "show_notification": true
+}

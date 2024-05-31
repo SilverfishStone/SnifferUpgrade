@@ -111,6 +111,10 @@ public class ModBlocks {
             () -> new FlowerBlock(ModMobEffects.MYSTERY, 5, BlockBehaviour.Properties.copy(Blocks.DEAD_BUSH).noOcclusion().noCollission()));
     public static final RegistryObject<Block> POTTED_HORSETAIL = registerBlock("potted_horsetail",
             () -> new FlowerPotBlock( () -> ((FlowerPotBlock)Blocks.FLOWER_POT), ModBlocks.HORSETAIL, BlockBehaviour.Properties.copy(Blocks.POTTED_DEAD_BUSH).noOcclusion()));
+    public static final RegistryObject<Block> CRATERWEED = registerBlock("crater_weed",
+            () -> new DeadBushBlock(BlockBehaviour.Properties.copy(Blocks.DEAD_BUSH).noOcclusion().noCollission()));
+    public static final RegistryObject<Block> POTTED_CRATERWEED = registerBlock("potted_crater_weed",
+            () -> new FlowerPotBlock( () -> ((FlowerPotBlock)Blocks.FLOWER_POT), ModBlocks.CRATERWEED, BlockBehaviour.Properties.copy(Blocks.POTTED_DEAD_BUSH).noOcclusion()));
 
     public static final RegistryObject<Block> INCUBATION_BENCH = registerBlock("incubation_bench",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.CRAFTING_TABLE)));
@@ -360,6 +364,10 @@ public class ModBlocks {
             () -> new FloatingBlock(BlockBehaviour.Properties.copy(Blocks.SANDSTONE).sound(SoundType.GILDED_BLACKSTONE)));
     public static final RegistryObject<Block> LATITE = registerBlock("latite",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.BASALT)));
+    public static final RegistryObject<Block> COBBLED_LATITE = registerBlock("cobbled_latite",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COBBLESTONE).sound(SoundType.BASALT)));
+    public static final RegistryObject<Block> LATITE_BRICKS = registerBlock("latite_bricks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.POLISHED_BASALT)));
 
 
 

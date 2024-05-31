@@ -63,6 +63,9 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.STRANIP_LEAVES);
         simpleItem(ModItems.STRANIP_ROOT);
         simpleItem(ModItems.SNIFFER_BAG);
+        simpleItem(ModItems.FLAMIPEDE_FANG);
+        simpleItem(ModItems.SPICY_CLAW_SOUP);
+        simpleItem(ModItems.CLAW_SOUP);
 
 
         withExistingParent(ModItems.GREATER_DODO_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
@@ -241,6 +244,7 @@ public class ModItemModelProvider extends ItemModelProvider {
                 new ResourceLocation("item/generated")).texture("layer0",
                 new ResourceLocation(SnifferUpgrade.MODID, "item/" + item.getId().getPath()));
     }
+
     private ItemModelBuilder handheldItem(RegistryObject<Item> item) {
         return withExistingParent(item.getId().getPath(),
                 new ResourceLocation("item/handheld")).texture("layer0",

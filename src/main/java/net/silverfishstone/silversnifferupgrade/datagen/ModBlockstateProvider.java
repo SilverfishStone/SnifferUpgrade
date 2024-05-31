@@ -164,6 +164,13 @@ public class ModBlockstateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.SNIFFER_WOOL);
         blockWithItem(ModBlocks.PUMICE);
         blockWithItem(ModBlocks.LATITE);
+        blockWithItem(ModBlocks.LATITE_BRICKS);
+        blockWithItem(ModBlocks.COBBLED_LATITE);
+
+        simpleBlockWithItem(ModBlocks.CRATERWEED.get(), models().cross(blockTexture(ModBlocks.CRATERWEED.get()).getPath(),
+                blockTexture(ModBlocks.CRATERWEED.get())).renderType("cutout"));
+        simpleBlockWithItem(ModBlocks.POTTED_CRATERWEED.get(), models().singleTexture("potted_crater_weed", new ResourceLocation("flower_pot_cross"), "plant",
+                blockTexture(ModBlocks.CRATERWEED.get())).renderType("cutout"));
     }
     public void hangingSignBlock(Block signBlock, Block wallSignBlock, ResourceLocation texture) {
         ModelFile sign = models().sign(name(signBlock), texture);

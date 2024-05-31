@@ -38,6 +38,7 @@ public class ModConfiguredFeatures {
     public static final ResourceKey<ConfiguredFeature<?, ?>> PETRIFIED_LOG_KEY = registerKey("petrified_log_key");
     public static final ResourceKey<ConfiguredFeature<?, ?>> SAND_FOREST_PATCH = registerKey("sand_forest_patch");
     public static final ResourceKey<ConfiguredFeature<?, ?>> STRANIP_FLOWER_PATCH = registerKey("stranip_flower_patch");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> CRATERWEED_PATCH = registerKey("craterweed_patch");
     public static final ResourceKey<ConfiguredFeature<?, ?>> ANCIENT_FIELDS_GRASS = registerKey("ancient_fields_grass_patch");
     public static final ResourceKey<ConfiguredFeature<?, ?>> CHLORITE_ORE = registerKey("chlorite_ore");
     public static final ResourceKey<ConfiguredFeature<?, ?>> MAGMA_DELTA = registerKey("magma_delta");
@@ -113,6 +114,7 @@ public class ModConfiguredFeatures {
 
         FeatureUtils.register(context, SAND_FOREST_PATCH, Feature.RANDOM_PATCH, FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK, new SimpleBlockConfiguration(BlockStateProvider.simple(Blocks.SAND))));
         FeatureUtils.register(context, STRANIP_FLOWER_PATCH, Feature.RANDOM_PATCH, grassPatch(BlockStateProvider.simple(ModBlocks.STRANIP_FLOWER.get()), 5));
+        FeatureUtils.register(context, CRATERWEED_PATCH, Feature.RANDOM_PATCH, grassPatch(BlockStateProvider.simple(ModBlocks.CRATERWEED.get()), 21));
         FeatureUtils.register(context, ANCIENT_FIELDS_GRASS, Feature.RANDOM_PATCH, grassPatch(BlockStateProvider.simple(Blocks.GRASS), 32));
         FeatureUtils.register(context, CHLORITE_ORE, Feature.ORE, new OreConfiguration(boulderstoneReplaceable, ModBlocks.CHLORITE.get().defaultBlockState(), 64));
         FeatureUtils.register(context, MAGMA_DELTA, Feature.DELTA_FEATURE, new DeltaFeatureConfiguration(Blocks.MAGMA_BLOCK.defaultBlockState(), Blocks.MAGMA_BLOCK.defaultBlockState(), UniformInt.of(3, 7), UniformInt.of(0, 2)));

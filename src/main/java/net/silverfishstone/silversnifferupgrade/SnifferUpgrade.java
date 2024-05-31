@@ -2,11 +2,8 @@ package net.silverfishstone.silversnifferupgrade;
 
 import com.mojang.datafixers.kinds.Monoid;
 import com.mojang.logging.LogUtils;
-import net.minecraft.client.gui.Gui;
-import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.client.renderer.Sheets;
 import net.minecraft.client.renderer.entity.EntityRenderers;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.*;
 import net.minecraft.world.item.alchemy.Potion;
 import net.minecraft.world.item.alchemy.PotionBrewing;
@@ -15,7 +12,6 @@ import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.FlowerPotBlock;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.common.brewing.BrewingRecipeRegistry;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -29,16 +25,13 @@ import net.silverfishstone.silversnifferupgrade.block.entity.ModBlockEntities;
 import net.silverfishstone.silversnifferupgrade.enchantments.SnifferEnchantments;
 import net.silverfishstone.silversnifferupgrade.entity.ModEntities;
 import net.silverfishstone.silversnifferupgrade.entity.client.*;
-import net.silverfishstone.silversnifferupgrade.entity.custom.FlamipedeEntity;
 import net.silverfishstone.silversnifferupgrade.item.ModCreativeModeTabs;
 import net.silverfishstone.silversnifferupgrade.item.ModItems;
 import net.silverfishstone.silversnifferupgrade.loot.ModLootModifiers;
 import net.silverfishstone.silversnifferupgrade.potions.ModMobEffects;
-import net.silverfishstone.silversnifferupgrade.potions.PotionBrewingClass;
-import net.silverfishstone.silversnifferupgrade.potions.SilverPotionsA;
+import net.silverfishstone.silversnifferupgrade.potions.SilverPotions;
 import net.silverfishstone.silversnifferupgrade.sounds.SnifferSounds;
 import net.silverfishstone.silversnifferupgrade.util.ModWoodTypes;
-import net.silverfishstone.silversnifferupgrade.util.SUGUI;
 import net.silverfishstone.silversnifferupgrade.villager.ModVillagers;
 import net.silverfishstone.silversnifferupgrade.worldgen.biome.ModTerrablender;
 import net.silverfishstone.silversnifferupgrade.worldgen.biome.surface.GinkgoSurfaceRules;
@@ -66,7 +59,7 @@ public class SnifferUpgrade {
         ModFoliagePLacers.register(modEventBus);
         ModLootModifiers.register(modEventBus);
         ModVillagers.register(modEventBus);
-        SilverPotionsA.register(modEventBus);
+        SilverPotions.register(modEventBus);
         SnifferEnchantments.register(modEventBus);
         ModEntities.register(modEventBus);
         ModTerrablender.registerBiomes();
@@ -78,7 +71,7 @@ public class SnifferUpgrade {
     }
 
     private void commonSetup(FMLCommonSetupEvent event) {
-        BrewingRecipeRegistry.addRecipe(new PotionBrewingClass(Potions.AWKWARD, ModItems.BIOMIC_SLUDGE_VIAL.get(), SilverPotionsA.OXYGENATED.get()));
+        PotionBrewing.addMix(Potions.AWKWARD, ModItems.BIOMIC_SLUDGE_VIAL.get(), SilverPotions.OXYGENATED.get());
         event.enqueueWork(() -> {
             ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(ModBlocks.HORSETAIL.getId(), ModBlocks.POTTED_HORSETAIL);
 

@@ -512,13 +512,6 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModBlocks.SNIFFER_WOOL.get()), has(ModBlocks.SNIFFER_WOOL.get()))
                 .save(pWriter);
 
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.BORSCH.get(), 1)
-                .requires(ModItems.STRANIP.get())
-                .requires(ModItems.STRANIP_LEAVES.get())
-                .requires(Items.BOWL)
-                .unlockedBy(getHasName(ModItems.STRANIP.get()),has(ModItems.STRANIP.get()))
-                .save(pWriter);
-
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.SNIFFER_BAG.get(), 1)
                 .define('S', Items.STRING)
                 .define('F', ModItems.SNIFFER_FUR.get())
@@ -527,6 +520,16 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("FFF")
                 .unlockedBy(getHasName(ModItems.SNIFFER_FUR.get()), has(ModItems.SNIFFER_FUR.get()))
                 .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CASTLE_SPIKES.get(), 6)
+                .define('S', ItemTags.STONE_CRAFTING_MATERIALS)
+                .define('I', Items.IRON_NUGGET)
+                .pattern("I I")
+                .pattern("I I")
+                .pattern("SSS")
+                .unlockedBy(getHasName(Items.IRON_NUGGET), has(Items.IRON_NUGGET))
+                .save(pWriter);
+
 
     }
     protected static void cookRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer, String pCookingMethod, RecipeSerializer<? extends AbstractCookingRecipe> pCookingSerializer, int pCookingTime) {

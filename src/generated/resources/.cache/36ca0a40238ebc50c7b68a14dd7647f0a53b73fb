@@ -1,4 +1,5 @@
-// 1.20.1	2024-04-30T14:32:52.1582117	Tags for minecraft:block mod id silversnifferupgrade
+// 1.20.1	2024-05-31T00:40:23.7020071	Tags for minecraft:block mod id silversnifferupgrade
+0c424a8fda439de973b8bbaaa3811acd9839abd7 data/minecraft/tags/blocks/dead_bush_may_place_on.json
 36f00293209f13a8fe2970a46d1e29e373d4beae data/minecraft/tags/blocks/dirt.json
 c496f3a09a31f148ab349e3c71a174bbdd7058b5 data/minecraft/tags/blocks/fences.json
 866e3563b3186f8baf0e1a0464f643e395955de6 data/minecraft/tags/blocks/fence_gates.json

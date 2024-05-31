@@ -40,6 +40,7 @@ public class ModPlacedFeatures {
     public static final ResourceKey<PlacedFeature> PETRIFIED_LOG_PLACED_KEY = registerKey("petrified_log_placed");
     public static final ResourceKey<PlacedFeature> SAND_FOREST_PATCH_PLACED = registerKey("sand_forest_patch_placed");
     public static final ResourceKey<PlacedFeature> STRANIP_FLOWER_PATCH_PLACED = registerKey("stranip_flower_patch_placed");
+    public static final ResourceKey<PlacedFeature> CRATERWEED_PATCH_PLACED = registerKey("craterweed_patch_placed");
     public static final ResourceKey<PlacedFeature> ANCIENT_FIELDS_GRASS_PLACED = registerKey("ancient_fields_grass_patch_placed");
     public static final ResourceKey<PlacedFeature> MAGMA_DELTA_PLACED = registerKey("magma_delta_placed");
 
@@ -79,6 +80,8 @@ public class ModPlacedFeatures {
                 VegetationPlacements.worldSurfaceSquaredWithCount(1));
         register(context, ModPlacedFeatures.ANCIENT_FIELDS_GRASS_PLACED, configuredFeatures.getOrThrow(ModConfiguredFeatures.ANCIENT_FIELDS_GRASS),
                 VegetationPlacements.worldSurfaceSquaredWithCount(5));
+        register(context, ModPlacedFeatures.CRATERWEED_PATCH_PLACED, configuredFeatures.getOrThrow(ModConfiguredFeatures.CRATERWEED_PATCH),
+                VegetationPlacements.worldSurfaceSquaredWithCount(3));
         register(context, ModPlacedFeatures.MAGMA_DELTA_PLACED, configuredFeatures.getOrThrow(ModConfiguredFeatures.MAGMA_DELTA), List.of(CountPlacement.of(64), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP_WORLD_SURFACE, BlockPredicateFilter.forPredicate(BlockPredicate.matchesBlocks(ModBlocks.LATITE.get())),BiomeFilter.biome()));
     }
 

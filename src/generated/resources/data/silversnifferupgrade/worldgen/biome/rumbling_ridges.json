@@ -73,7 +73,9 @@
       "minecraft:spring_lava"
     ],
     [
-      "minecraft:glow_lichen"
+      "minecraft:glow_lichen",
+      "silversnifferupgrade:craterweed_patch_placed",
+      "minecraft:patch_dead_bush_2"
     ]
   ],
   "has_precipitation": true,
@@ -84,7 +86,7 @@
     "creature": [
       {
         "type": "silversnifferupgrade:flamipede",
-        "maxCount": 5,
+        "maxCount": 2,
         "minCount": 1,
         "weight": 5
       }

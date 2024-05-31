@@ -68,6 +68,9 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
         this.tag(BlockTags.WOOL)
                 .add(ModBlocks.SNIFFER_WOOL.get());
 
+        this.tag(BlockTags.DEAD_BUSH_MAY_PLACE_ON)
+                .add(ModBlocks.LATITE.get());
+
         this.tag(BlockTags.FLOWERS)
                 .add(ModBlocks.STRANIP_FLOWER.get());
         this.tag(BlockTags.SMALL_FLOWERS)

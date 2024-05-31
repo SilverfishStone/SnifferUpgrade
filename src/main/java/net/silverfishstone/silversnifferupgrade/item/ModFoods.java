@@ -26,7 +26,11 @@ public class ModFoods {
             .effect(() -> new MobEffectInstance(ModMobEffects.DIRTY.get(), 100, 0),  0.1f).build();
     public static final FoodProperties STRANIP = new FoodProperties.Builder()
             .saturationMod(0.26f).nutrition(5).build();
-    public static final FoodProperties BORSCH = new FoodProperties.Builder()
+    public static final FoodProperties SOUP = new FoodProperties.Builder()
             .saturationMod(0.5f).nutrition(9).build();
+
+    public static final FoodProperties SPICY_SOUP = new FoodProperties.Builder()
+            .saturationMod(0.7f).nutrition(15)
+            .effect(() -> new MobEffectInstance(ModMobEffects.SPICY.get(), 100, 0, false, false),  0.9f).build();
 
 }

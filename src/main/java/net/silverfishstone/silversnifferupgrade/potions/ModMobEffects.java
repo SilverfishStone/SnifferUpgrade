@@ -9,10 +9,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.silverfishstone.silversnifferupgrade.SnifferUpgrade;
-import net.silverfishstone.silversnifferupgrade.effect.DirtyEffect;
-import net.silverfishstone.silversnifferupgrade.effect.MysteryEffect;
-import net.silverfishstone.silversnifferupgrade.effect.OxygenatedEffect;
-import net.silverfishstone.silversnifferupgrade.effect.SuffocateEffect;
+import net.silverfishstone.silversnifferupgrade.effect.*;
 
 public class ModMobEffects
 {
@@ -21,6 +18,7 @@ public class ModMobEffects
     public static final RegistryObject<MobEffect> OXYGENATED = MOB_EFFECTS.register("oxygenated", () -> new OxygenatedEffect(MobEffectCategory.NEUTRAL, 0x2C8265));
     public static final RegistryObject<MobEffect> SUFFOCATING = MOB_EFFECTS.register("suffocating", () -> new SuffocateEffect(MobEffectCategory.HARMFUL, 0x2C8265));
     public static final RegistryObject<MobEffect> MYSTERY = MOB_EFFECTS.register("mystery", () -> new MysteryEffect(MobEffectCategory.HARMFUL, 0x2C8265));
+    public static final RegistryObject<MobEffect> SPICY = MOB_EFFECTS.register("spicy", () -> new SpicyEffect(MobEffectCategory.NEUTRAL, 0x2C8265));
     public static final RegistryObject<MobEffect> DIRTY = MOB_EFFECTS.register("dirty", () -> new DirtyEffect(MobEffectCategory.HARMFUL, 0x67553B)
             .addAttributeModifier(Attributes.MOVEMENT_SPEED, "1111DE9E-7CE9-9988-930E-514C1F160890", (double)-0.25F, AttributeModifier.Operation.MULTIPLY_TOTAL)
             .addAttributeModifier(Attributes.JUMP_STRENGTH, "3611DE9E-7CE9-1981-930E-599C1F160510", (double)-0.15F, AttributeModifier.Operation.MULTIPLY_TOTAL));

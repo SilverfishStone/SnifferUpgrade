@@ -5,6 +5,14 @@
 		"0": "silversnifferupgrade:item/crab_claw",
 		"particle": "silversnifferupgrade:item/crab_claw"
 	},
+	"overrides": [
+		{
+			"predicate": {
+				"broken": 1
+			},
+			"model": "item/cracked_crab_claw"
+		}
+	],
 	"elements": [
 		{
 			"from": [6.5, 4, -1.5],
